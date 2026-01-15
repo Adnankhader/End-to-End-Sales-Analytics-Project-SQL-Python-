@@ -1,0 +1,30 @@
+create table bronze.orders
+(
+	order_id nvarchar(50),
+	order_date date,
+	ship_mode nvarchar(50),
+	segment nvarchar(50),
+	country nvarchar(50),
+	city nvarchar(50),
+	state nvarchar(50),
+	postal_code int,
+	region nvarchar(50),
+	category nvarchar(50),
+	sub_category nvarchar(50),
+	product_id nvarchar(50),
+	cost_price int,
+	list_price int,
+	quantity int,
+	discount_percent int,
+	discount_amount float,
+	selling_price float,
+	total_revenue float,
+	total_profit float,
+	profit_loss_flag nvarchar(10),
+	order_value_bucket nvarchar(50),
+	order_day nvarchar(20),
+	order_month_number int,
+	order_month nvarchar(20),
+	order_year int
+)
+
